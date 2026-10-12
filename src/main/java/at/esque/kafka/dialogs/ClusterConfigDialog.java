@@ -205,9 +205,9 @@ public class ClusterConfigDialog {
         FormRenderer formRenderer = new FormRenderer(form);
 
         javafx.scene.control.ScrollPane scrollPane = new javafx.scene.control.ScrollPane(formRenderer);
-        scrollPane.setFitToWidth(true); // Ensures the form stretches to the width of the ScrollPane
-        scrollPane.setPrefViewportWidth(1000); // Replaces formRenderer.setPrefWidth(1000)
-        scrollPane.setPrefViewportHeight(500); // Set your desired fixed height here!
+        scrollPane.setFitToWidth(true);
+        scrollPane.setPrefViewportWidth(1000);
+        scrollPane.setPrefViewportHeight(500);
 
         dialog.getDialogPane().setContent(scrollPane);
 
